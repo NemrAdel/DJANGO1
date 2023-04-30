@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicketCinema</title>
+    <link rel="stylesheet" href="{% static 'css/cinema2.css' %}">
+    <link rel="shorcut icon" href="{% static 'images/tickets.png' %}">
+</head>
+<body id="bg" style="background-image: url('{% static 'images/cinemablur.jpeg' %}');">
+    <script src="{% static 'js/plane.js' %}"></script>
+  <div class="container">
+        <div class="login">
+            <img  class="user" src="{% static 'images/tickets.PNG' %}" alt="">
+            <h1>Enjoy!</h1>
+            <form action="">
+                <label for="">First Name</label>
+                <input type="text" placeholder="Enter first name">
+
+                <label for="">Last Name</label>
+                <input type="text" placeholder="Enter last name">
+
+                <label for="">age</label>
+                <input type="text" placeholder="Enter your age">
+
+                <label for="">phone</label>
+                <input type="text" placeholder="Enter phone number">
+
+
+                <label for="">id</label>
+                <input type="text" placeholder="Enter id">
+                
+                <button>save</button>
+            </form>
+
+            <div class="bottom-div">
+                <div class="line-or">
+                    <span>TicketHub</span>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+  </body>
+</html>
